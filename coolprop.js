@@ -1490,7 +1490,8 @@ function integrateWasmJS() {
   var method = 'native-wasm';
 
   var wasmTextFile = 'coolprop.wast';
-  var wasmBinaryFile = 'coolprop.wasm';
+  // var wasmBinaryFile = 'coolprop.wasm';
+  var wasmBinaryFile = 'coolpropwasm.sec' ;
   var asmjsCodeFile = 'coolprop.temp.asm.js';
 
   if (!isDataURI(wasmTextFile)) {
